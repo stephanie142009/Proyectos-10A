@@ -1,0 +1,52 @@
+body{
+    font-family: fantasy;  
+    background-color: aliceblue;    
+        display: flex;
+        justify-content: center;    
+        align-items: center;
+        height: 100vh;
+        margin: 0;    
+    }
+    .GALERIA{
+    background-color: rgb(186, 221, 253);  
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     text-align: center;
+     width: 80%;
+     max-width: 800px;
+    }
+    h1{
+        color: rgb(0, 38, 60);
+    }
+    .imagen-container img{
+        min-width: 200px;
+        width: 50%;
+        border-radius: 10px;
+        transition: opacity 0.5s ease-in-out;
+    }
+    .BOTONES{
+        margin-top: 20px;
+    }
+    button{
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: rgb(197, 88, 162);
+        color: aliceblue;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 0 10px;
+        transition: background-color 0.3s ease;
+    }
+    button:hover{
+        border-color:  rgb(124, 7, 226);
+    }
+    p{
+        margin-top:20px ;
+        font-size: 16px;
+        color: rgb(255, 0, 200);
+    }
+    span{
+        font-weight: bold;
+    }
